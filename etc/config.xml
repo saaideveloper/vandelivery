@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Config XML
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <eshop>
+                <title>Van Delivery</title>
+                <active>1</active>
+                <model>Ogl\VanDelivery\Model\Carrier</model>
+                <name>eShop 3 Shipping</name>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </eshop>
+        </carriers>
+    </default>
+</config>
